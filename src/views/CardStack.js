@@ -180,7 +180,7 @@ class CardStack extends Component<DefaultProps, Props, void> {
        && CardStackStyleInterpolator.canUseNativeDriver(isModal)
     ) {
       // Internal undocumented prop
-      transitionSpec.useNativeDriver = true;
+      transitionSpec.useNativeDriver = false;
     }
     return transitionSpec;
   }
